@@ -1,0 +1,11 @@
+.LogoContainer{
+    height: 7vh;
+    width: 6.3vw;
+    /* background-color: brown; */
+    display: flex;
+}
+
+.Logo{
+    height: 6.9vh;
+    width: 6.3vw;
+}

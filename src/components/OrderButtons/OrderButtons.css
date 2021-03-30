@@ -1,0 +1,14 @@
+.OrderButton{
+    height: 6vh;
+    width: 35vw;
+    padding-left: 2vw;
+    display: flex;
+}
+
+.ButtonOneStyle{
+    margin-left: -2vw;
+}
+
+.ButtonTwoStyle{
+    margin-left: 3.5vw;
+}

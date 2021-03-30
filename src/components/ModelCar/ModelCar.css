@@ -1,0 +1,19 @@
+.ModelCar{
+    height: 40vh;
+    width: 100vw;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+}
+
+.ModelNamePosition{
+    height: fit-content;
+    width: fit-content;
+    margin: 1vh 0vw 0vh 0vw;
+    /* background-color: yellow; */
+}
+
+.OrderButtonPosition{
+    align-self: center;
+    margin: 59.5vh 0vw 0vh 0vw;
+}

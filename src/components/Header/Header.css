@@ -1,0 +1,19 @@
+.Header{
+    height: 7vh;
+    width: 100vw;
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: row;
+}
+
+.LogoPosition{
+    margin: 0px 0px 0px 1.3vw;
+}
+
+.ModelMenuPosition{
+    margin: 2.1vh 0px 5px 23vw;
+}
+
+.MenuAccountPosition{
+    margin: 2vh 1vw 0vw 11vw;
+}

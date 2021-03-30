@@ -1,0 +1,73 @@
+.ModelNameContainer{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    -o-animation: fadein 5s; /* Opera */
+}
+
+.ModelNamePositionStyle{
+    text-align: center;
+    margin-top: 3vh;
+    display: block;
+    align-content: center;
+    height: 48px;
+    width: 100vw;
+    /* border: 1px solid black; */
+}
+
+.ModelNameTextStyle{
+    font-size: 40px;
+    font-weight: 500px;
+    letter-spacing: 0.6px;
+    line-height: 48px;
+}
+
+.ModelSubNamePositionStyle{
+    align-self: center;
+    margin-top: 0.3vw;
+}
+
+.ModelSubNameTextStyle{
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 1.1vh;
+}
+    
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
